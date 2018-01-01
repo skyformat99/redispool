@@ -1,14 +1,14 @@
 # redispool
 A redis connection pool
 ## src
-Redis pool source code. U can use copy these files to ur project and include it.
+Redis pool source code. U can copy these files to ur project and include it.
+e.g.
+Seeing test/redis_test.cpp or redispool_benchmark.cpp
 ## test
 Inlude gtest & benchmark
 ## hiredis
 This little thing used infrastructure: hiredis.
 ### linux
-for linux client of redis
+linux client of hiredis
 ### windows
-for linux client of VS2015
-## sample
-Seeing test/redis_test.cpp or redispool_benchmark.cpp
+hiredis client of VS2015
