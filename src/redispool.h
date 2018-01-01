@@ -1,5 +1,5 @@
 #pragma once
-// facade of hredis connection, impl. to C++xx
+// facade of hiredis connection, impl. to C++xx
 // JStatham 2017/12/30
 #include <memory>
 #include <mutex>
