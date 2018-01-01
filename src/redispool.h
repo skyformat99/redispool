@@ -14,6 +14,7 @@
 #include <iostream>
 #ifdef WIN32
 #include <winsock.h>
+#pragma comment(lib,"ws2_32.lib")
 #endif
 #ifdef LINUX
 #include <sys/time.h>
